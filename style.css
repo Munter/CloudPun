@@ -1,0 +1,56 @@
+#page {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+    border: 1px solid #FEFEFE;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 450%;
+    z-index: 100;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    
+    
+}
+
+img {
+    position: relative;
+    left: 19px;
+    z-index: 110;
+    background: white;
+    padding: 10px;
+    border: 1px solid black;
+    -webkit-box-shadow: 0 0 20px black;
+    -moz-box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
+}
+
+.cloud {
+    width: 300px;
+    height: 158px;
+    background: url(images/cloud.png);
+    position: absolute;
+    opacity: 0.5;
+    background-size: contain;
+}
+
+#c1 { z-index: 10; top:  10px; left: -100px; width: 300px; }
+#c2 { z-index: 20; top: -100px; left: -300px; }
+#c3 { z-index: 30; top:  80px; left: 400px; }
+#c4 { z-index: 40; top: 220px; left: 800px; }
+#c5 { z-index: 50; top: 160px; left: 500px; }
+#c6 { z-index: 60; top: 300px; left: 200px; }
+#c7 { z-index: 70; top:  500px; left: 100px; }
+#c8 { z-index: 80; top:  300px; left: 100px; }
+
+#g1 { z-index: 1; top:  10px; left: 100px; }
+#g2 { z-index: 1; top:  10px; left: 100px; }
+#g3 { z-index: 1; top:  10px; left: 100px; }
+#g4 { z-index: 1; top:  10px; left: 100px; }
+#g5 { z-index: 1; top:  10px; left: 100px; }
+#g6 { z-index: 1; top:  10px; left: 100px; }
+#g7 { z-index: 1; top:  10px; left: 100px; }
+#g8 { z-index: 1; top:  10px; left: 100px; }
